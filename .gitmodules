@@ -13,3 +13,6 @@
 [submodule "zsh/plugins/bullet-train"]
 	path = zsh/plugins/bullet-train
 	url = https://github.com/caiogondim/bullet-train.zsh.git
+[submodule "zsh/bullet-train"]
+	path = zsh/bullet-train
+	url = https://github.com/mtbspace/bullet-train.zsh.git

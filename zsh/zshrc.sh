@@ -9,7 +9,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH="./workflow/zsh/plugins/oh-my-zsh"
 
-source ~/workflow/zsh/prompt.sh
+# own prompt
+# source ~/workflow/zsh/prompt.sh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -110,3 +111,6 @@ source $ZSH/oh-my-zsh.sh
  		ls;
  	}
 alias cd="c"
+
+# use customised bullet-train theme
+source ~/workflow/zsh/bullet-train/bullet-train.zsh-theme
