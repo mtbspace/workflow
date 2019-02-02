@@ -7,9 +7,9 @@
 [submodule "zsh/plugins/oh-my-zsh"]
 	path = zsh/plugins/oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
-[submodule "zsh/plugins/zsh/plugins/bullet-train"]
-	path = zsh/plugins/zsh/plugins/bullet-train
-	url = https://github.com/caiogondim/bullet-train.zsh.git
 [submodule "tmux/themes/maglev"]
 	path = tmux/themes/maglev
 	url = https://github.com/caiogondim/maglev.git
+[submodule "zsh/plugins/bullet-train"]
+	path = zsh/plugins/bullet-train
+	url = https://github.com/caiogondim/bullet-train.zsh.git
