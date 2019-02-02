@@ -10,6 +10,3 @@
 [submodule "tmux/themes/maglev"]
 	path = tmux/themes/maglev
 	url = https://github.com/caiogondim/maglev.git
-[submodule "zsh/bullet-train"]
-	path = zsh/bullet-train
-	url = https://github.com/mtbspace/bullet-train.zsh.git
