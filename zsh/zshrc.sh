@@ -117,13 +117,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#Functions
- 	# Custom cd
- 	c() {
- 		cd $1;
- 		ls;
- 	}
+# Functions
+# Custom cd
+  c() {
+    cd $1;
+    ls;
+  }
 alias cd="c"
+
+alias epoch="date +%s"
 
 BULLETTRAIN_PROMPT_ORDER=(
   # time
