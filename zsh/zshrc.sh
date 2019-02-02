@@ -7,7 +7,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="./workflow/zsh/plugins/oh-my-zsh"
+export ZSH="/home/james/workflow/zsh/plugins/oh-my-zsh"
 
 # own prompt
 # source ~/workflow/zsh/prompt.sh
@@ -113,7 +113,7 @@ source $ZSH/oh-my-zsh.sh
 alias cd="c"
 
 BULLETTRAIN_PROMPT_ORDER=(
-  time
+  # time
   status
   # custom
   context
