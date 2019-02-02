@@ -112,5 +112,28 @@ source $ZSH/oh-my-zsh.sh
  	}
 alias cd="c"
 
+BULLETTRAIN_PROMPT_ORDER=(
+  time
+  status
+  # custom
+  context
+  dir
+  # screen
+  # perl
+  # ruby
+  # virtualenv
+  nvm
+  # aws
+  # go
+  # rust
+  # elixir
+  git
+  # hg
+  cmd_exec_time
+)
+
+BULLETTRAIN_STATUS_EXIT_SHOW=true
+BULLETTRAIN_PROMPT_ROOT=true
+
 # use customised bullet-train theme
 source ~/workflow/zsh/bullet-train/bullet-train.zsh-theme
