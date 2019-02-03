@@ -9,7 +9,7 @@ Vim
 ### Prerequisites
 tmux
 
-zsh (set as default with chsh)
+zsh - set as default shell with chsh (use /usr/bin/zsh)
 
 vim
 
@@ -30,3 +30,6 @@ https://files.ax86.net/terminus-ttf/files/4.47.0/terminus-ttf-4.47.0.zip
 `ln -s -f ~/workflow/tmux/oh-my-tmux/.tmux.conf ~/.tmux.conf
 `ln -s -f ~/workflow/tmux/tmux.conf.local ~/.tmux.conf.local
 
+
+### Revert everything by switiching the shell back to bash
+chsh (use /bin/bash)

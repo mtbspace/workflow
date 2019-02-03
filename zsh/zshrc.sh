@@ -127,6 +127,9 @@ alias cd="c"
 
 alias epoch="date +%s"
 
+# Stop ZSH using wildcards with curl urls
+alias curl='noglob curl'
+
 BULLETTRAIN_PROMPT_ORDER=(
   # time
   status
