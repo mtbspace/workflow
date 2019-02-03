@@ -152,3 +152,6 @@ BULLETTRAIN_PROMPT_ROOT=true
 
 # use customised bullet-train theme
 source ~/workflow/zsh/bullet-train/bullet-train.zsh-theme
+
+# cat /etc/motd
+neofetch
