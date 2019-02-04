@@ -23,7 +23,7 @@ build-essential
 
 cmake
 
-python3-dev
+python3-dev or python-dev
 
 
 ### Preferred font
@@ -47,10 +47,11 @@ Launch vim and run :PluginInstall
 ### Compile You Complete Me
 cd ~/workflow/vim/.installed_plugins/YouCompleteMe
 
-./install.sh
+./install.py
 
 Problems with python version mismatch?  See https://github.com/Valloric/YouCompleteMe/issues/2136
 
+JavaScript and TypeScript support: navigate to ~/workflow/vim/.installed_plugins/YouCompleteMe/third_party/ycmd and run npm install -g --prefix third_party/tsserver typescript
 
 ### Revert shell by switiching the shell back to bash
 ''chsh (use /bin/bash)
