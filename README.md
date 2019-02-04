@@ -31,13 +31,13 @@ https://files.ax86.net/terminus-ttf/files/4.47.0/terminus-ttf-4.47.0.zip
 
 
 ### When pulling or cloning, include the submodules:
-`git clone --recurse-submodules https://github.com/mtbspace/workflow.git ~/workflow
+``git clone --recurse-submodules https://github.com/mtbspace/workflow.git ~/workflow
 
 
 ### Link to tmux config files:
-`ln -s -f ~/workflow/tmux/oh-my-tmux/.tmux.conf ~/.tmux.conf
+``ln -s -f ~/workflow/tmux/oh-my-tmux/.tmux.conf ~/.tmux.conf
 
-`ln -s -f ~/workflow/tmux/tmux.conf.local ~/.tmux.conf.local
+``ln -s -f ~/workflow/tmux/tmux.conf.local ~/.tmux.conf.local
 
 
 ### Add plugins to vim
@@ -51,5 +51,5 @@ Problems with python version mismatch?  See https://github.com/Valloric/YouCompl
 
 
 ### Revert shell by switiching the shell back to bash
-'chsh (use /bin/bash)
+``chsh (use /bin/bash)
 
