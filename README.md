@@ -44,8 +44,10 @@ https://files.ax86.net/terminus-ttf/files/4.47.0/terminus-ttf-4.47.0.zip
 Launch vim and run :PluginInstall
 
 
-### Follow you complete me full install instructions
-https://github.com/Valloric/YouCompleteMe#full-installation-guide
+### Compile You Complete Me
+cd ~/workflow/vim/.installed_plugins/YouCompleteMe
+
+./install.sh
 
 Problems with python version mismatch?  See https://github.com/Valloric/YouCompleteMe/issues/2136
 

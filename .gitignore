@@ -1,2 +1,3 @@
 *.swp
 *.log
+vim/.installed_plugins
