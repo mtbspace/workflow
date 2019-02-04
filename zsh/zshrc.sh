@@ -126,6 +126,7 @@ source $ZSH/oh-my-zsh.sh
 alias cd="c"
 
 alias epoch="date +%s"
+alias weather="curl wttr.in/50.93,-1.00"
 
 # Stop ZSH using wildcards with curl urls
 alias curl='noglob curl'
