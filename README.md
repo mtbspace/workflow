@@ -25,7 +25,6 @@ cmake
 
 python3-dev or python-dev
 
-
 ### Preferred font
 https://files.ax86.net/terminus-ttf/files/4.47.0/terminus-ttf-4.47.0.zip
 
@@ -41,25 +40,25 @@ ln -s -f ~/workflow/tmux/oh-my-tmux/.tmux.conf ~/.tmux.conf
 ln -s -f ~/workflow/tmux/tmux.conf.local ~/.tmux.conf.local
 ```
 
-
 ### Add plugins to vim
 Launch vim and run :PluginInstall
-
 
 ### Compile You Complete Me
 ```
 cd ~/workflow/vim/.installed_plugins/YouCompleteMe
 ./install.py
 ```
-
 Problems with python version mismatch?  See https://github.com/Valloric/YouCompleteMe/issues/2136
 
-JavaScript and TypeScript support: navigate to ~/workflow/vim/.installed_plugins/YouCompleteMe/third_party/ycmd and run npm install -g --prefix third_party/tsserver typescript
+### JavaScript and TypeScript support
+navigate to ~/workflow/vim/.installed_plugins/YouCompleteMe/third_party/ycmd and run 
+
+```
+npm install -g --prefix third_party/tsserver typescript
+```
 
 ### Revert shell by switching the shell back to bash
 ```
 chsh (use /bin/bash)
 ```
-
 Or in konsole settings
-
