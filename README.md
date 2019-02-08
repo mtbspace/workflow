@@ -1,9 +1,5 @@
 # Workflow configuration
-Tmux
-
-Zsh
-
-Vim
+Configuration for Tmux, Zsh, Vim and plugins:
 
 YouCompleteMe: a code-completion engine for Vim
 
@@ -41,7 +37,10 @@ ln -s -f ~/workflow/tmux/tmux.conf.local ~/.tmux.conf.local
 ```
 
 ### Add plugins to vim
-Launch vim and run :PluginInstall
+Launch vim and run 
+```
+:PluginInstall
+```
 
 ### Compile You Complete Me
 ```
@@ -51,9 +50,8 @@ cd ~/workflow/vim/.installed_plugins/YouCompleteMe
 Problems with python version mismatch?  See https://github.com/Valloric/YouCompleteMe/issues/2136
 
 ### JavaScript and TypeScript support
-navigate to ~/workflow/vim/.installed_plugins/YouCompleteMe/third_party/ycmd and run 
-
 ```
+cd ~/workflow/vim/.installed_plugins/YouCompleteMe/third_party/ycmd
 npm install -g --prefix third_party/tsserver typescript
 ```
 
