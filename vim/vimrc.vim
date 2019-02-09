@@ -68,6 +68,11 @@ filetype plugin indent on    " required
 syntax on
 set number
 
+" useful settings for powerline
+set laststatus=2 " Always display the statusline in all windows
+set showtabline=2 " Always display the tabline, even if there is only one tab
+" set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+
 " 2 spaces for tabs
 filetype plugin indent on
 " On pressing tab, insert 2 spaces
@@ -89,6 +94,7 @@ set statusline+=%{FugitiveStatusline()}
 " vim-signify
 let g:signify_realtime = 1
 
+" let ycm know where python is
 let g:ycm_server_python_interpreter = '/usr/bin/python'
 
 " ycm autocomplete for typescript
