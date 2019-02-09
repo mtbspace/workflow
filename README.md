@@ -21,7 +21,7 @@ cmake
 
 python3-dev or python-dev
 
-### ESLine
+### ESLint
 Install globally
 ```
 sudo npm install eslint eslint-plugin-import eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard --global
@@ -39,10 +39,13 @@ If they are still missing, try:
 git submodule update --init
 ```
 
-### Link to tmux config files:
+### Link to config files:
 ```
 ln -s -f ~/workflow/tmux/oh-my-tmux/.tmux.conf ~/.tmux.conf
 ln -s -f ~/workflow/tmux/tmux.conf.local ~/.tmux.conf.local
+ln -s -f ~/workflow/zsh/zshrc.sh ~/.zshrc
+ln -s -f ~/workflow/vim/vimrc.vim ~/.vimrc
+
 ```
 
 ### Add plugins to vim
@@ -51,7 +54,7 @@ Launch vim and run
 :PluginInstall
 ```
 
-### Compile You Complete Me
+### Compile 'You Complete Me' vim plugin
 ```
 cd ~/workflow/vim/.installed_plugins/YouCompleteMe
 ./install.py

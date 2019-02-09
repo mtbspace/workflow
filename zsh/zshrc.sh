@@ -1,8 +1,3 @@
-##################################################
-# This file is sources from ~/.zshrc as follows: #
-# source '/home/user/workflow/zsh/zshrc.sh'      #
-##################################################
-
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=10000
