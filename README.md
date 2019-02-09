@@ -29,6 +29,12 @@ sudo npm install typescript -g
 sudo npm install @angular/cli -g
 ```
 
+### Max user watches reached
+If vim complains about this, add the following to /etc/sysctl.conf
+```
+fs.inotify.max_user_watches = 524288
+```
+
 ### Preferred font
 https://files.ax86.net/terminus-ttf/files/4.47.0/terminus-ttf-4.47.0.zip
 
