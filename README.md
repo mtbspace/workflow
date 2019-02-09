@@ -1,9 +1,6 @@
 # Workflow configuration
 Configuration for Tmux, Zsh, Vim and plugins:
 
-YouCompleteMe: a code-completion engine for Vim
-
-
 ### Prerequisites (debian packages)
 tmux
 
@@ -45,7 +42,6 @@ ln -s -f ~/workflow/tmux/oh-my-tmux/.tmux.conf ~/.tmux.conf
 ln -s -f ~/workflow/tmux/tmux.conf.local ~/.tmux.conf.local
 ln -s -f ~/workflow/zsh/zshrc.sh ~/.zshrc
 ln -s -f ~/workflow/vim/vimrc.vim ~/.vimrc
-
 ```
 
 ### Add plugins to vim
