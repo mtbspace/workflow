@@ -1,5 +1,5 @@
 # Workflow configuration
-Configuration for Tmux, Zsh, Vim and plugins for working with javascript and typescript
+Configuration for Tmux, Zsh, Vim and plugins for working with javascript, typescript and angular
 
 ### Debian prerequisite packages
 git
@@ -28,6 +28,7 @@ Install globally
 ```
 sudo npm install eslint eslint-plugin-import eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard -g
 sudo npm install typescript -g
+sudo npm install @angular/cli -g
 ```
 
 ### Preferred font
