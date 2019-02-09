@@ -1,7 +1,7 @@
 # Workflow configuration
 Configuration for Tmux, Zsh, Vim and plugins:
 
-### Prerequisites (debian packages)
+### Debian prerequisite packages
 tmux
 
 zsh - set as default shell with chsh (use /usr/bin/zsh)
@@ -18,10 +18,11 @@ cmake
 
 python3-dev or python-dev
 
-### ESLint
+### NPM prerequisite packages
 Install globally
 ```
-sudo npm install eslint eslint-plugin-import eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard --global
+sudo npm install eslint eslint-plugin-import eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard -g
+sudo npm install typescript -g
 ```
 
 ### Preferred font

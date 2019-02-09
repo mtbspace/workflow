@@ -45,6 +45,11 @@ Plugin 'tpope/vim-fugitive'
 
 Plugin 'mhinz/vim-signify'
 
+" typeScript
+Plugin 'leafgarland/typescript-vim'
+Plugin 'HerringtonDarkholme/yats.vim'
+Plugin 'Quramy/tsuquyomi'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -85,3 +90,9 @@ set statusline+=%{FugitiveStatusline()}
 let g:signify_realtime = 1
 
 let g:ycm_server_python_interpreter = '/usr/bin/python'
+
+" ycm autocomplete for typescript
+if !exists("g:ycm_semantic_triggers")
+  let g:ycm_semantic_triggers = {}
+endif
+let g:ycm_semantic_triggers['typescript'] = ['.']
