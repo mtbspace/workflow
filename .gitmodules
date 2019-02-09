@@ -7,12 +7,6 @@
 [submodule "zsh/plugins/oh-my-zsh"]
 	path = zsh/plugins/oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
-[submodule "zsh/bullet-train"]
-	path = zsh/bullet-train
-	url = https://github.com/mtbspace/bullet-train.zsh.git
-[submodule "tmux/oh-my-tmux"]
-	path = tmux/oh-my-tmux
-	url = https://github.com/gpakosz/.tmux.git
 [submodule "vim/bundle/Vundle.vim"]
 	path = vim/bundle/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git

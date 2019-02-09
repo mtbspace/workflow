@@ -1,5 +1,5 @@
 # Workflow configuration
-Configuration for Tmux, Zsh, Vim and plugins for working with javascript, typescript and angular
+Configuration for Tmux, Zsh, Vim, Powerline and plugins for working with javascript, typescript and angular.
 
 ### Debian prerequisite packages
 git
@@ -8,17 +8,15 @@ tmux
 
 zsh - set as default shell with chsh (use /usr/bin/zsh)
 
-vim
-
 vim-nox
 
-fonts-powerline
+powerline
 
 build-essential
 
 cmake
 
-python3-dev or python-dev
+xfonts-terminus
 
 ### Nodejs
 Refer to nodejs website
@@ -45,10 +43,10 @@ git submodule update --init
 
 ### Link to config files:
 ```
-ln -s -f ~/workflow/tmux/oh-my-tmux/.tmux.conf ~/.tmux.conf
-ln -s -f ~/workflow/tmux/tmux.conf.local ~/.tmux.conf.local
+ln -s -f ~/workflow/tmux/tmux.conf ~/.tmux.conf
 ln -s -f ~/workflow/zsh/zshrc.sh ~/.zshrc
 ln -s -f ~/workflow/vim/vimrc.vim ~/.vimrc
+ln -s -f ~/workflow/powerline ~/.config
 ```
 
 ### Add plugins to vim
