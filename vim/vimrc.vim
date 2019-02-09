@@ -36,6 +36,19 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " https://github.com/Valloric/YouCompleteMe
 Plugin 'Valloric/YouCompleteMe'
 
+" vim-javascript (syntax highlighting)
+" https://github.com/pangloss/vim-javascript
+Plugin 'pangloss/vim-javascript'
+
+" Asynchronous Lint Engine
+" https://github.com/w0rp/ale
+Plugin 'w0rp/ale'
+
+" git (vim-fugitive)
+" https://github.com/tpope/vim-fugitive
+Plugin 'tpope/vim-fugitive'
+
+Plugin 'mhinz/vim-signify'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -51,5 +64,29 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+syntax on
+set number
+
+" 2 spaces for tabs
+filetype plugin indent on
+" On pressing tab, insert 2 spaces
+set expandtab
+" show existing tab with 2 spaces width
+set tabstop=2
+set softtabstop=2
+" when indenting with '>', use 2 spaces width
+set shiftwidth=2
+
+" ALE settings
+let g:ale_fixers = {
+\   'javascript': ['eslint', 'tsserver'],
+\}
+
+" vim-fugitive 
+set statusline+=%{FugitiveStatusline()}
+
+" vim-signify
+let g:signify_realtime = 1
 
 let g:ycm_server_python_interpreter = '/usr/bin/python'
