@@ -4,7 +4,7 @@
   },
   "ext": {
     "shell": {
-      "theme": "select"
+      "theme": "default_leftonly"
     },
     "vim": {
       "colorscheme": "default"
