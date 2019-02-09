@@ -1,5 +1,3 @@
-## NOTE: Probably can remove the 'You complete me' submodule
-
 # Workflow configuration
 Configuration for Tmux, Zsh, Vim and plugins:
 
