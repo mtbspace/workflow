@@ -1,7 +1,9 @@
 # Workflow configuration
-Configuration for Tmux, Zsh, Vim and plugins:
+Configuration for Tmux, Zsh, Vim and plugins for working with javascript and typescript
 
 ### Debian prerequisite packages
+git
+
 tmux
 
 zsh - set as default shell with chsh (use /usr/bin/zsh)
@@ -17,6 +19,9 @@ build-essential
 cmake
 
 python3-dev or python-dev
+
+### Nodejs
+Refer to nodejs website
 
 ### NPM prerequisite packages
 Install globally
