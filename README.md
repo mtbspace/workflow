@@ -34,6 +34,10 @@ If vim complains about this, add the following to /etc/sysctl.conf
 ```
 fs.inotify.max_user_watches = 524288
 ```
+Reload with
+```
+sysctl -p
+```
 
 ### Preferred font
 https://files.ax86.net/terminus-ttf/files/4.47.0/terminus-ttf-4.47.0.zip
