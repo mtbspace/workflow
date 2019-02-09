@@ -10,7 +10,7 @@ zsh - set as default shell with chsh (use /usr/bin/zsh)
 
 vim-nox
 
-powerline
+powerline-gitstatus (also install powerline and fonts-powerline)
 
 build-essential
 

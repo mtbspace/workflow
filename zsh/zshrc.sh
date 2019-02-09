@@ -17,10 +17,11 @@ source /usr/share/powerline/bindings/zsh/powerline.zsh
 # Custom cd
   c() {
     cd $1;
-    ls;
+    ls --color=auto;
   }
 alias cd="c"
 
+alias ls='ls --color=auto'
 alias epoch="date +%s"
 alias weather="curl wttr.in/50.93,-1.00"
 

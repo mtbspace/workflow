@@ -3,6 +3,9 @@
     "term_truecolor": true
   },
   "ext": {
+    "shell": {
+      "theme": "select"
+    },
     "vim": {
       "colorscheme": "default"
     }
