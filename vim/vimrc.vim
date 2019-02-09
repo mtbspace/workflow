@@ -10,6 +10,9 @@ call vundle#begin('~/workflow/vim/.installed_plugins')
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" powerline
+Bundle 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -67,11 +70,12 @@ filetype plugin indent on    " required
 
 syntax on
 set number
+set t_Co=256
 
 " useful settings for powerline
 set laststatus=2 " Always display the statusline in all windows
 set showtabline=2 " Always display the tabline, even if there is only one tab
-" set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
+set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 
 " 2 spaces for tabs
 filetype plugin indent on
