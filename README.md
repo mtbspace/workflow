@@ -16,7 +16,7 @@ build-essential
 
 cmake
 
-xfonts-terminus
+xfonts-terminus (personal choice)
 
 ### Nodejs
 Refer to nodejs website
@@ -39,7 +39,8 @@ Reload with
 sysctl -p
 ```
 
-### Preferred font
+### TTF version of font
+Might be needed if xfonts-terminus not working correctly:
 https://files.ax86.net/terminus-ttf/files/4.47.0/terminus-ttf-4.47.0.zip
 
 ### When pulling or cloning, include the submodules:
