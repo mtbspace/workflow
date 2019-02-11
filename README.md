@@ -76,7 +76,7 @@ Problems with python version mismatch?  See https://github.com/Valloric/YouCompl
 ### JavaScript and TypeScript support
 ```
 cd ~/workflow/vim/.installed_plugins/YouCompleteMe/third_party/ycmd
-npm install -g --prefix third_party/tsserver typescript
+sudo npm install -g --prefix third_party/tsserver typescript
 ```
 
 ### Revert shell by switching the shell back to bash
