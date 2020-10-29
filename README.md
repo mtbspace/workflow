@@ -1,6 +1,11 @@
 # Workflow configuration
 Configuration for Tmux, Zsh, Vim, Powerline and plugins for working with javascript, typescript and angular.
 
+## *** UPDATE ***
+YouCompleteMe needs a later version of vim than what is available in debian buster.  Install vim by building from source, with python 3 support
+
+See https://blog.siddharthkannan.in/vim/2019/08/31/compiling-vim-with-python/
+
 ### Debian prerequisite packages
 git
 

@@ -35,3 +35,6 @@ alias curl='noglob curl'
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
   exec tmux
 fi
+
+export PATH=$PATH:/home/james/Programs/gcc-arm-none-eabi-9-2020-q2-update/bin/
+export PATH=$PATH:/home/james/opt/xPacks/@xpack-dev-tools/openocd/0.10.0-15.1/.content/bin/

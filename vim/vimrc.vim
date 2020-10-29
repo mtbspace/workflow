@@ -99,7 +99,7 @@ set statusline+=%{FugitiveStatusline()}
 let g:signify_realtime = 1
 
 " let ycm know where python is
-let g:ycm_server_python_interpreter = '/usr/bin/python'
+let g:ycm_server_python_interpreter = '/usr/bin/python3'
 
 " ycm autocomplete for typescript
 if !exists("g:ycm_semantic_triggers")
