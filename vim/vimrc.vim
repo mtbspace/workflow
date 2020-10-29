@@ -91,6 +91,7 @@ set shiftwidth=2
 let g:ale_fixers = {
 \   'javascript': ['eslint', 'tsserver'],
 \}
+let g:ale_lint_on_text_changed = 'always'
 
 " vim-fugitive 
 set statusline+=%{FugitiveStatusline()}
